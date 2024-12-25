@@ -638,14 +638,13 @@ a {
 .footer .social {
     margin-top: 40px;
     display: flex;
-    gap: 12px;
+    gap: 16px;
 }
 
 .footer .social .social-link {
     display: inline-block;
-    width: 28px;
-    height: 28px;
-    background-color: #ddd;
+    width: 35px;
+    height: 35px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -654,7 +653,7 @@ a {
 }
 
 .footer .social .social-link:hover {
-    opacity: 0.8;
+    background-color: #ebebeb;
 }
 
 .footer .row-bottom {
