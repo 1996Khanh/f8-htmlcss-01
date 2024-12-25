@@ -167,7 +167,19 @@ a {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 95px;
+    margin-top: 70px;
+}
+
+.clients .images img {
+    width: 20.4rem;
+    height: 9.1rem;
+    padding: 0 40px;
+}
+
+.clients .images img:hover {
+    border-radius: 12px;
+    box-shadow: 0 10px 12px rgba(0, 0, 0, 0.1);
+    transform: translateY(-10px);
 }
 
 /*=====  Guides  =====*/
