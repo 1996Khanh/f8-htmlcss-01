@@ -5,9 +5,16 @@
 :root {
     --primary-color: #0f1b4c;
 }
+
+html,
+body {
+    scroll-behavior: smooth;
+}
+
 html {
     font-size: 62.5%;
 }
+
 body {
     font-size: 1.6rem;
     font-family: "Poppins", sans-serif;
@@ -101,7 +108,7 @@ a {
 
 .hero-wrap {
     background-color: #e6f0ff;
-    height: 650px;
+    height: 700px;
     position: relative;
     padding-top: 100px;
 }
